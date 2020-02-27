@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "beyno";
+    src: url('BEYNO.otf');
+}
+@font-face {
+    font-family: "beyno";
+    src: url('BEYNO.ttf')
+}
+ body {
+            background-image: url(africa-feeling-small.jpg);
+            margin: 40px auto;
+            width: 600px;
+        }
+        #main-container {
+            background-color: rgba(248, 33, 237, 0.123);
+            width: 500px;
+            padding: 5px;
+            border: 1px solid rgb(161, 18, 209);
+            border-radius: 15px;
+
+            font-weight: bold;
+            font-family:"beyno",sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(161, 18, 209);
+
+        }
+        #display-post {
+            margin-left: 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-family:"beyno",sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(161, 18, 209);
+           
+        }
+        #post-header {
+            
+            font-weight: bold;
+            font-family:"beyno",sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(96, 15, 208);
+            
+        }
+        #citations {
+            font-weight: bold;
+            font-family:"beyno",sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(96, 15, 208);
+            
+        }
+        
+        .t1 {
+            font-family: "beyno",sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(254, 143, 62)
+        }
+        
+        .button{
+            display:inline-block;
+              
+              font:normal normal 300 1.3em 'beyno';
+              text-decoration:none;	
+              
+              color:rgb(66, 30, 154);
+              background-color:transparent;
+              border:1px solid rgb(66, 30, 154);
+              border-radius:100px;
+              
+              padding: .3em 1.2em;
+              margin:5px;
+                      
+              background-size: 200% 100%;	
+              background-image: linear-gradient(to right, transparent 50%, rgb(66, 30, 154) 50%);
+              transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;
+          }
+        
+          .button:hover{
+            color:rgb(32, 11, 76);
+            background-color:rgb(66, 30, 154);
+            background-position: -100% 100%;
+        }
