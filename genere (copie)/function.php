@@ -5,8 +5,8 @@ error_reporting(-1);
 
 $dbhost = 'localhost'; // set the hostname
 $dbname = 'id12737531_generator'; // set the database name
-$user = 'id12737531_mukengeshayi_michael';
-$pass = 'Aragorn2';
+$user = '';
+$pass = '';
 
 try {
 		$bdd = new PDO('mysql:host=localhost;dbname=id12737531_generator;charset=utf8', $user, $pass);
